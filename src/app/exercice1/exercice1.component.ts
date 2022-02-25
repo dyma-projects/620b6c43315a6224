@@ -13,4 +13,7 @@ export class Exercice1Component implements OnInit {
   ngOnInit() {
   }
 
+  miseAJour(event: {value: number}) {
+    this.compteur = event.value;
+  }
 }
